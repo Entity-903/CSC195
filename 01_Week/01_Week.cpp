@@ -13,7 +13,7 @@ int main()
     int iVal3 = 42;
     float fVal = 23;
     char chVal = 'a';
-    
+
     std::cout << "\niVal1 = ";
     std::cout << iVal1 << " address = " << &iVal1;
 
@@ -35,7 +35,8 @@ int main()
     std::cout << "\niPrt address = " << &iPtr;
     std::cout << "\nSize of iPtr = " << sizeof(iPtr);
     std::cout << "\nValue iPtr points to is " << *(iPtr + 1);
-}
+    std::cout << "\nGit";
+}   
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
